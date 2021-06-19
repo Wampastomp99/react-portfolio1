@@ -264,3 +264,106 @@ textarea {
 	top: 0;
 	z-index: 1;
 }
+
+.modalContainer {
+	background: var(--darker);
+	border-radius: 5px;
+	max-width: 100%;
+	margin: 50px auto;
+	padding: 15px;
+	width: 960px;
+}
+
+.modalTitle {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 25px;
+}
+
+.navActive {
+	color: var(--primary);
+}
+
+.footer {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.photo {
+	width: auto;
+	height: auto;
+	max-width: 480px;
+	max-height: 640px;
+	/* padding: 50px; */
+	margin-bottom: 50px;
+}
+
+.image {
+	width: auto;
+	height: auto;
+	max-width: 500px;
+	max-height: 500px;
+	padding: 50px;
+}
+
+.logo {
+	width: 50px;
+	height: 50px;
+	margin-bottom: 50px;
+	cursor: pointer;
+}
+
+.logo:hover {
+	opacity: 0.5;
+}
+
+.center {
+	display: flex;
+	justify-content: center;
+}
+
+.page-header {
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.5em;
+	font-weight: 500;
+	margin: 5px 0;
+	line-height: 1.25;
+	padding-bottom: 2rem;
+}
+
+.bottom-spacing {
+	margin-bottom: var(--spacing-five);
+}
+
+.card {
+	width: 25%;
+	text-align: center;
+}
+
+.card-title {
+	font-size: 1.5rem;
+	color: var(--quaternary);
+}
+
+.card-subtitle {
+	font-size: 1rem;
+	color: var(--tertiary);
+}
+
+.card-text {
+	font-size: 0.75rem;
+	height: 8rem;
+	color: var(--quinary);
+}
+
+.card-techs {
+	font-size: 0.75rem;
+	height: 4rem;
+	color: var(--quinary);
+}
+
+.card-image {
+	max-width: 300px;
+	max-height: 150px;
+}
