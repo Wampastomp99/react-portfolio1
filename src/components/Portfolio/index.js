@@ -4,46 +4,37 @@ import Project from '../Project';
 function Portfolio() {
 	const projects = [
 		{
-			name: 'Living Real',
+			name: 'Social media api',
 			description:
-				'This is a property management system that is used by landlords viewing and managing their properties and for tenants to allow for maintenance requests and pay rent.',
-			image: 'living-real-image.png',
+				'This is a social media api that letst you add people add comments and more',
+			image: 'social.png',
 			technologies: [
-				'HTML/CSS',
 				'JavaScript',
 				'Node.js',
 				'Express & NoSQL',
-				'Heroku & AWS S3',
-				'React.js',
-				'MERN Stack',
 			],
-			github: 'https://github.com/P3T2-Realty-Rogues/living-real',
-			deployed: 'https://living-real.herokuapp.com/',
+			github: 'https://github.com/Wampastomp99/social-media-api1',
+			
 		},
 		{
-			name: 'Auto Tracker',
+			name: 'New Project',
 			description:
-				'This is your personal automobile information tracking system. Track time dependent, vehicle specific information from a single application, available on any web-enabled device.',
-			image: 'auto-tracker-image.png',
+				'this pace will be fuilled with my now project that i will be working on in the next 2 weeks',
+			image: 'cogs.png',
 			technologies: [
-				'HTML/CSS',
-				'JavaScript',
-				'Node.js',
-				'Handlebars.js',
-				'Express & Sequelize',
-				'Heroku & AWS S3',
+				'TBD',
 			],
-			github: 'https://github.com/OwaisIslam/auto-tracker',
-			deployed: 'https://team-3-auto-tracker.herokuapp.com/',
+			github: 'https://github.com/Wampastomp99',
+			
 		},
 		{
-			name: 'Flash Beats',
+			name: 'Readme Maker 10000',
 			description:
-				'A clean and accurate way to search for your favorite songs while also displaying the lyrics.',
-			image: 'flash-beats-image.gif',
-			technologies: ['HTML/CSS', 'JavaScript', 'jQuery'],
-			github: 'https://github.com/OwaisIslam/flash-beats',
-			deployed: 'https://teamflash1.github.io/music-app/',
+				'This is a read me generator that helps you not have to type them out all the dang time',
+			image: 'paper.png',
+			technologies: ['HTML/CSS', 'JavaScript',],
+			github: 'https://github.com/Wampastomp99/Readme-Maker-10000',
+			deployed: '',
 		},
 		{
 			name: 'Budget Tracker',
@@ -57,8 +48,8 @@ function Portfolio() {
 				'Node.js',
 				'Express',
 			],
-			github: 'https://github.com/OwaisIslam/budget-tracker',
-			deployed: 'https://budget-tracker-owais.herokuapp.com/',
+			github: 'https://github.com/Wampastomp99/pwa-budget-tracker1',
+			deployed: '',
 		},
 		{
 			name: 'Weather Dashboard',
@@ -66,8 +57,8 @@ function Portfolio() {
 				'A weather dashboard that shows current weather and five-day weather forecast for any city.',
 			image: 'weather-dashboard-image.png',
 			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/weather-dashboard',
-			deployed: 'https://owaisislam.github.io/weather-dashboard/',
+			github: 'https://github.com/Wampastomp99/Weather',
+			deployed: '',
 		},
 		{
 			name: 'Password Generator',
@@ -75,8 +66,8 @@ function Portfolio() {
 				'This is an application that allows you to generate a password from 8 to 128 characters based on criteria you select.',
 			image: 'password-generator-image.png',
 			technologies: ['HTML/CSS', 'JavaScript'],
-			github: 'https://github.com/OwaisIslam/password-generator',
-			deployed: 'https://owaisislam.github.io/password-generator/',
+			github: 'https://github.com/Wampastomp99/Password-Generator',
+			deployed: '',
 		},
 		{
 			name: 'Note Taker',
@@ -84,8 +75,8 @@ function Portfolio() {
 				'This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.',
 			image: 'note-taker-image.png',
 			technologies: ['HTML/CSS', 'JavaScript', 'Express.js'],
-			github: 'https://github.com/OwaisIslam/note-taker',
-			deployed: 'https://note-taker-owais.herokuapp.com/',
+			github: 'https://github.com/Wampastomp99/note-taker',
+			deployed: '',
 		},
 	];
 
