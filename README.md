@@ -7,3 +7,4 @@ my react portfolio i know its very base and nothing very special but its myn and
 
 Github: https://github.com/Wampastomp99/react-portfolio1
 
+deployed : https://wampastomp99.github.io/react-portfolio1/
